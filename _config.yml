@@ -1,2 +1,5 @@
-name: LplusKira
-markdown: kramdown
+# config file to tell Jekyll that
+
+name: LplusKira    # the name of this website
+markdown: kramdown # the markdown version
+permalink: /blog/:year/:month/:day/:title # the 'blog' in the permanlink
