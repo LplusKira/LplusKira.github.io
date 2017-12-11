@@ -7,6 +7,8 @@
 - \_posts: where to put the posts 
 
 ## TODO
+- download used css? e.g. those in __link__?
+- weird link address of blogs (though they work ...)?
 - RSS?
 - \_includes? e.g. DISQUS for commenting on blogs
 - site map? (though it's been really simple site yet)
