@@ -41,3 +41,13 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* by css3 -- which is ... im not familiar w\ it
+  ref: https://css-tricks.com/perfect-full-page-background-image/
+*/
+body {
+    background: url(https://wallpapercave.com/wp/wp1861422.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+

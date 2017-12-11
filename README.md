@@ -7,7 +7,6 @@
 - \_posts: where to put the posts 
 
 ## TODO
-- My posts are under '/cv', which is very weird ... 
 - RSS?
 - \_includes? e.g. DISQUS for commenting on blogs
 - site map? (though it's been really simple site yet)

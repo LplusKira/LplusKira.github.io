@@ -6,6 +6,10 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
 */
+/*
+* Refined by Po-Kai Chang
+* 12/11/2017
+*/
 
 
 /* Table of contents
@@ -125,7 +129,12 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #662200; }
+  color: #662200; 
+
+  background-attachment: fixed;;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 /* Typography
@@ -141,9 +150,14 @@ h2 { font-size: 3.8rem; line-height: .9; letter-spacing: -.1rem; color: #602020;
      margin: 0.5rem 0 2.5rem 0rem;
 }
 h3 { font-size: 1.2rem; line-height: .7;  letter-spacing: -.1rem; }
-h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+h4 { font-size: 1.0rem; line-height: .55; letter-spacing: -.08rem; }
+h5 { font-size: .8rem; line-height: .5;  letter-spacing: -.05rem; }
+h6 { font-size: .5rem; line-height: .3;  letter-spacing: 0; }
+
+p {
+  margin: 0.5rem 0 0.5rem -3rem;
+  font-size: 1.8rem;
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -153,11 +167,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
-}
-
-p {
-  margin: 0.5rem 0 0.5rem -3rem;
-  font-size: 1.8rem;
 }
 
 
@@ -315,21 +324,26 @@ li {
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* A code block - maybe even PHP ;). */
-code {
-    color: #000000;
-    background-color: #dddddd;
+/* 
+  ref: https://www.simplemachines.org/community/index.php?topic=310948.0 
+*/
+code
+{
+    background: #F1F1F1;
     font-family: "courier new", "times new roman", monospace;
     font-size: x-small;
     line-height: 1.3em;
+
     /* Put a nice border around it. */
     border: 1px solid #000000;
     margin: 1px auto 1px auto;
     padding: 1px;
     width: 99%;
+
     /* Don't wrap its contents, and show scrollbars. */
     white-space: nowrap;
     overflow: auto;
+
     /* Stop after about 24 lines, and just show a scrollbar. */
     max-height: 24em;
 }
@@ -436,3 +450,31 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* smaller device */
+@media (max-width: 400px) {
+  h1 { font-size: 2.4rem; line-height: 1.0;  letter-spacing: -.1rem; margin: 0.1rem -1rem 0.5rem -6rem;
+  }
+  h2 { font-size: 1.8rem; line-height: 0.9; letter-spacing: -.1rem; color: #602020; margin: 0.5rem 0 2.5rem -3rem;
+  }
+  h3 { font-size: 0.6rem; line-height: .7;  letter-spacing: -.1rem; }
+  h4 { font-size: .5rem; line-height: .6; letter-spacing: -.08rem; }
+  h5 { font-size: .4rem; line-height: .5;  letter-spacing: -.05rem; }
+  h6 { font-size: .2rem; line-height: .4;  letter-spacing: 0; }
+
+  li {
+    font-size: 1.2rem;
+    line-height: 0.75;
+    margin: 0.5rem 0 0.5rem -1rem;
+  }
+
+  body { 
+    font-size: 0.5em; 
+    background: url(/images/saitamaMobileWall.png); 
+    background-attachment: fixed;;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+
