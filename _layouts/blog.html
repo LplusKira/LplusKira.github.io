@@ -9,7 +9,7 @@
 - Non-small-screens Navbar
 - Small-screens Navbar
 - Main
-== CVs
+== Post Content Division
 == Footer Division
 -->
 
@@ -39,15 +39,20 @@
         background: #222;
       }
 
+      /* Add a left margin to main that matches the width of the sidebar (120px) */
       main {
-        /* Add a left margin to main that matches the width of the sidebar (120px) */
-        margin-left: 120px;
+        margin-left: 120px
       }
 
 
       /* Style bars in skillSet */
       .skillSet .w3-dark-grey {
         height: 28px;
+      }
+
+	  /* Style post links */
+	  li.post {
+		margin: 1vw auto;
       }
 
       /* Remove margins from main on small screens */
@@ -83,12 +88,11 @@
     
     <!--Main-->
     <main class="w3-padding-large">
-      <!--CVs-->
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64">
-        <a href="https://github.com/LplusKira/LplusKira.github.io/raw/master/cv/CV.pdf">Download CV in PDF</a><br>
-        <a href="https://github.com/LplusKira/LplusKira.github.io/raw/master/cv/CV.docx">Download CV in WORD</a>
+      <!--Post Content Division-->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        {{ content }}
       </div>
-
+      
       <!--Footer Division-->
       <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
         
