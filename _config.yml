@@ -1,6 +1,4 @@
-# config file to tell Jekyll that
-
+# Config file for Jekyll:
 name: LplusKira    # the name of this website
 markdown: kramdown # the markdown version
 permalink: /blog/:year/:month/:day/:title # the 'blog' in the permanlink
-permalink: /cv/:year/:month/:day/:title # the 'cv' in the permanlink
