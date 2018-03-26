@@ -1,0 +1,17 @@
+/* Style links in post*/
+.post a:hover, #cv a:hover, #home a:hover, #about a:hover {
+  color: #132e56;
+  text-decoration: underline;
+  font-family: arial;
+  font-size: 130%;
+  background-color: #b78d9f;
+  border-radius: .5vw;
+}
+/* selected link */
+.post a:active, #cv a:active, #home a:hover, #about a:hover { 
+  color: red; 
+  font-weight: bold;
+}
+.post a:visited, #cv a:visited, #home a:hover, #about a:hover { 
+  color: #402a42;
+}
