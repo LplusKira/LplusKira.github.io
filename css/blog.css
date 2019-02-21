@@ -43,14 +43,15 @@ pre > code {
 code {
   background: #bdb7b7;
   font-family: "courier new", "times new roman", monospace;
-  font-size: x-small;
+  font-size: medium;
+  color: rgba(34,34,34,0.7);
   line-height: 2.5vw;
 
   padding: .3vw .5vw;
   border-radius: .5vw;
   margin: 0 auto;
 
-  /* Scroll bar if too long */
+  /* Scroll bar long */
   overflow: auto;
   max-height: 24em;
 }
