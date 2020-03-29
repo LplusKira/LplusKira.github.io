@@ -4,3 +4,4 @@ _site/
 images/tmp
 .DS_Store
 tags
+.jekyll-cache/
